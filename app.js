@@ -20,7 +20,7 @@ const app = express();
 
 // CORS middleware use kare
 app.use(cors({
-  origin: ["http://localhost:3000", "https://personalized-learning-platform.onrender.com"], 
+  origin: ["http://localhost:3000", "https://customlearningplatform.netlify.app/"], 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   credentials: true, // Cookies aur authentication headers allow kare
 }));
